@@ -1,0 +1,1 @@
+workbox.routing.registerRoute(new RegExp('.+//api.apiopen.top/recommendPoetry'), workbox.strategies.networkFirst({}), 'GET');
